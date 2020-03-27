@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>This is the title</title>
+  <meta name="author" content="Greg">
+  <meta charset="utf-8">
+  
+  <style>
+    body
+    {
+    background-image: url("insta.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    }
+    p
+    {
+      background-color: LightGrey;
+      border: 1px solid red;
+      padding: 10px;
+      margin: 5px;
+    }
+    #p1
+    {
+      font-family: cursive;
+    }
+    p.class1
+    {
+      background-color: white;
+    }
+    a:link
+    {
+      color: green;
+      text-decoration: none;
+      background-color: orange;
+      padding: 10px 50px;
+      display: inline-block ;
+    }
+    a:visited
+    {
+      color:red;
+      text-decoration: overline;
+    }
+    a:active
+    {
+      color:yellow;
+      background-color: black;
+    }
+    a:hover
+    {
+    color: grey;
+    text-decoration: underline;
+    background-color: white;
+    }
+    td
+    {
+      font-family: monospace;
+      letter-spacing: 2px;
+    }
+    table,th,td
+    {
+      border: 3px solid black;
+      border-collapse: collapse;
+      font-size: 110%;
+    }
+    th,td
+    {
+      padding: 15px;
+    }
+    table
+    {
+      border-spacing: 5px;
+    }
+    tr:nth-child(odd)
+    {
+      background-color: lightgrey;
+    }
+    tr:nth-child(even)
+    {
+      background-color: white;
+    }
+    th
+    {
+      font-family: sans-serif;
+    }
+    #list1
+    {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: grey;
+    }
+    #list1 li
+    {
+      float: left;
+      color: white;
+      display: block;
+      text-align: center;
+      padding:16px
+    }
+    #list1 li:hover
+    {
+      background-color: black;
+
+    }
+    .d1
+    {
+      background-color: white;
+    }
+    #form1
+    {
+      background-color: aqua;
+      display: inline-block;
+    }
+
+  </style>
+</head>
+<body style="font-family:verdana">
+  <h1 id="begin">Welcome to my website</h1>
+  <ul id=list1>
+    <li>Home</li>
+    <li>About</li>
+    <li>News</li>
+  </ul>
+  <h2>My favorite languages</h2>
+  <p>Cpp</p>
+  <p>para</p>
+  <h6>h6</h6>
+  <h5>h5</h5>
+  <h3>This is h3...we can use h1 h2 h3 h4 h5 h6 in html5</h3>
+  <a href="https://google.com">Google link</a>
+  <br>
+  <br>
+  <button>okay</button>
+  <ul style="list-style-type:square">THE UNORDERED LIST
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+  </ul>
+  <ol type="I">
+    THE ORDERED LIST
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+  </ol>
+  <p>this is a para ->line break time <br> hello guys after line break</p>
+  <h2> style="color:blue">red para///error..right way is done below</h2>
+  <p style="color:red";>This is a red paragraph.</p>
+  <p style="color:blue">this is blue</p>
+  <h1 style="color:grey">READY FOR THIS?//GREY</h1>
+  <img src="insta.jpg" width="100" height="100" alt="insta">
+  <p><cite>INSTAGRAM</cite> Using cite element</p>
+  <p title="This is a para" style="color:red">Helooo world put the cursor in me</p>
+  <p title="van 'pelt' jane">Put curor here to see single quotes in title</p>
+  <hr>
+  <h1 style="font-size:60px;">H1 HEADING WITH 60 PX</h1>
+  <h1>H1 HEADING WITHOUT STYLE IE DEFAULT</h1>
+  <hr>
+  <pre>.The pre tag .
+  it preserves both both line breaks
+        and white spaces unlike p
+    </pre>
+    <hr>
+  <p style="font-family:verdana;">verdana font(but can we change the color too? yess we can)</p>
+  <h1 style="font-size:300%;color:blue;">hello with 300 % font size</h1>
+  <h2 style="text-align:center">HEADING ALINES CENTER</h2>
+  <p style="text-align:center;">Centered Heading</p>
+  <p><b>BOLD</b></p>
+  <p><i>ITALIC</i></p>
+  <p>this is <sub>subscripted</sub> <mark> but </mark> <ins> this </ins> is <sup> superscripted </sup> <small> haha </small> <del> cutting this </del></p>
+  <p>Here is a quote from WWF's website:</p>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally. haah
+  </blockquote>
+<p>The <abbr title="World health organisation">WHO</abbr> is a health organisation</p>
+<address>
+  <p>This is my address<br>Mambakkattu House<br>MGROAD<br>banglore</p>
+</address>
+<bdo dir="ltr">This text will be written from right to left in the next line <br></bdo>
+<bdo dir="rtl">This text will be written from right to left in the next line</bdo>
+<bdi dir="rtl"><br>hello world bdi with rtl</bdi>
+<bdi dir="ltr"><br>hello world bdi with ltr</bdi>
+  <!-- I CANT UNDERSTAND BI DIRECTIONAL ISOLATION -->
+<p style="font-size:150%;" id="p1">I HAVE A UNIQUE ID</p>
+<p class="class1">helloguys im in class 1</p>
+<p>im not in class 1</p>
+<p class="class1">HEyyn im in class 1 too</p>
+<a href="https://instagram.com" target="_blank">
+  <img src="insta.jpg" alt="Instagram" height="100px" width="100px" title="Instagram">
+  <br>
+</a>
+<a href="https://instagram.com">
+  <img src="insta.jpg" alt="HTML tutorial" style="width:42px;height:42px;border:0";>
+</a>
+<a href="#begin" style="font-size:150%;font-family: cursive;background-color: white;margin:5px;padding:10px 10px">Jump to the top babe</a>
+<p>
+  <img src="insta.jpg" alt="insta float" style="float:right;height:50px;width:50px;padding:10px 50px;display:inline-block;">
+  hello guys the image is in the right they say its floating
+</p>
+<img src="insta.jpg" alt="insta" usemap="#map" style="height:500px;width:500px">
+<map name="map">
+  <area shape="rectangle" coords="190 210 295 310" href="https://instagram.com" alt="insta">
+</map>
+
+<img src="insta.jpg" alt="insta" usemap="#mapy" style="height:500px;width:500px">
+<map name="mapy">
+  <area shape="rectangle" coords="190 210 295 310" onclick="myfunction()" alt="insta">
+</map>
+<script>
+function myfunction()
+{
+  alert("YOU CLICKED on the Logo");
+}
+</script>
+<p>heyy we have reached line 143 and i still don't know how to make the background color right.</p>
+<table style="width:100%;text-align: center;">
+  <caption style="font-size:150%;color:blue;font-family:arial;text-align:left;text-decoration:underline;background-color:grey;">Information</caption>
+  <tr style="color:red">
+    <th>Name</th>
+    <th>Favorite Social Media</th>
+    <th colspan="2">Numbers 1 and 2</th>
+  </tr>
+  <tr>
+    <td>Greg</td>
+    <td>Instagram</td>
+    <td>32871298729</td>
+    <td>2345656788</td>
+  </tr>
+  <tr>
+    <td>Simon</td>
+    <td>whatsapp</td>
+    <td>76543</td>
+    <td>836543</td>
+  </tr>
+</table>
+<h2>Description Tab</h2>
+  <dl>
+    <dt>Instagram</dt>
+    <dd>-It is a social media app used to Communicate and Share pictures</dd>
+  </dl>
+  <div class="d1" >
+    I'm a div<
+    </div>
+    <br>
+    <span class="d1">I'm a span</span>
+    <h2>Lets Make Something Disappear - Click Below</h2>
+    <button onclick="fun()">Disappear</button>
+    <h1 class="diss">Byee Guys</h1>
+    <script>
+    function fun()
+    {
+      var x = document.getElementsByClassName("diss");
+      for(var i = 0; i < x.length ;i++)
+      {
+        x[i].style.display="none";
+      }
+    }
+    </script>
+
+<h2>Lets Make Something Disappear - Click Below-Another Way</h2>
+<button onclick="funn()">Disappear</button>
+<h1 class="dis">Byee Guys</h1>
+<script>
+function funn()
+{
+  var x = document.getElementsByClassName("dis");
+  x[0].style.display="none";
+}
+</script>
+<h2>Lets change a text</h2>
+<h3 id="change">IM OLD</h3>
+<button onclick="changefun()">CHANGE TEXT</button>
+<script>
+function changefun()
+{
+  document.getElementById("change").innerHTML="IM NEW";
+}
+
+</script>
+<h3 style="font-family:ariel">WELCOME TO W3SCHOOLS-but they have set 'X-Frame-Options' to 'sameorigin-DOES NOT WORK'</h1>
+<iframe src="https://www.w3schools.com" style="border:2px solid black" width="550px" height="500px"></iframe>
+
+<form>
+  <input type="text">
+<input type="button" value="500" style="display: flex;">
+<input type="radio">
+<input type="submit">
+</form>
+<form id="form1">
+
+  <label for="name">Enter Name:</label>
+  <input type="text" name="name" id="name"><br>
+  <label for="interest">Interested In:</label>
+  <input type="text" name="intrest" id="interest"><br>
+  <input type="submit">
+  <br>
+  <label for="sex">Select Gender</label><br>
+  <input type="radio">
+  <label for="male">Male</label>
+  <input type="radio">
+  <label for="female">female</label>
+  <input type="radio">
+  <label for="other">Other</label>
+</form>
+
+<form>
+  <fieldset>
+    <legend>Helooooo</legend>
+    <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+  </fieldset>
+</form>
+
+
+
+
+
+</body>
+</html>
